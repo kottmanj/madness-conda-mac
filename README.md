@@ -17,8 +17,10 @@ conda-build .
 
 If succesful you get output like:
 ```bash
+anaconda upload \
+    /Users/runner/miniconda/envs/madtest/conda-bld/osx-64/madtequila-1.0-h2c9ce9a_0.tar.bz2
+anaconda_upload is not set.  Not uploading wheels: []
 {
-13503
   "madtequila-1.0-h2c9ce9a_0": {
     "recipe": {
       "CONDA_BUILD_SYSROOT": "/opt/MacOSX11.3.sdk",
