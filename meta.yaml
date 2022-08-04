@@ -8,7 +8,7 @@ package:
  
 # adapt madpno source once online
 source: 
-        - path: ../../ # assuming you cloned the repo https://github.com/kottmanj/madness 
+        - git_url: https://github.com/kottmanj/madness 
           folder: madness
           git_tag: madness-conda
         - git_url: https://github.com/dpilger26/NumCpp.git
